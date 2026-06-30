@@ -1,0 +1,7 @@
+{
+  "api_provider": "openai",
+  "api_url": "https://api.openai.com/v1",
+  "api_key": "YOUR_API_KEY_HERE",
+  "api_model": "gpt-4o-mini",
+  "api_reasoning_effort": "medium"
+}
