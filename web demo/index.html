@@ -9,7 +9,8 @@
         content="Interactive demo of Real User Instruction (RUI), a prompt-level defense against Indirect Prompt Injection for LLM agents.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -23,9 +24,6 @@
             <span class="nav-title">RUI <span class="nav-badge">Real User Instruction</span></span>
         </div>
         <div class="nav-right">
-            <a href="../rui-ubicomp-0630.pdf" target="_blank" class="nav-link">
-                <i class="fa-regular fa-file-pdf"></i> Paper
-            </a>
             <button class="btn btn-ghost" id="btn-toggle-config">
                 <i class="fa-solid fa-gear"></i> Config
             </button>
@@ -51,7 +49,8 @@
                 <label for="api-key">API Key</label>
                 <div class="key-input-wrap">
                     <input type="password" id="api-key" placeholder="sk-...">
-                    <button type="button" id="btn-toggle-key" class="btn-icon"><i class="fa-regular fa-eye"></i></button>
+                    <button type="button" id="btn-toggle-key" class="btn-icon"><i
+                            class="fa-regular fa-eye"></i></button>
                 </div>
             </div>
             <div class="config-field">
@@ -80,8 +79,10 @@
                 <div class="input-header">
                     <h2>New Turn Input</h2>
                     <div class="input-actions">
-                        <button class="btn btn-ghost btn-sm" id="btn-load-sample"><i class="fa-solid fa-flask"></i> Load Sample</button>
-                        <button class="btn btn-ghost btn-sm" id="btn-clear"><i class="fa-solid fa-trash-can"></i> Reset All</button>
+                        <button class="btn btn-ghost btn-sm" id="btn-load-sample"><i class="fa-solid fa-flask"></i> Load
+                            Sample</button>
+                        <button class="btn btn-ghost btn-sm" id="btn-clear"><i class="fa-solid fa-trash-can"></i> Reset
+                            All</button>
                     </div>
                 </div>
                 <div class="input-grid">
@@ -91,18 +92,22 @@
                     </div>
                     <div class="field">
                         <label for="user-instruction">User Instruction</label>
-                        <textarea id="user-instruction" rows="2" placeholder="The legitimate user command..."></textarea>
+                        <textarea id="user-instruction" rows="2"
+                            placeholder="The legitimate user command..."></textarea>
                     </div>
                     <div class="field">
-                        <label for="data-payload">Data Payload <span class="label-hint">(untrusted external data)</span></label>
-                        <textarea id="data-payload" rows="2" placeholder="External data retrieved by the agent..."></textarea>
+                        <label for="data-payload">Data Payload <span class="label-hint">(untrusted external
+                                data)</span></label>
+                        <textarea id="data-payload" rows="2"
+                            placeholder="External data retrieved by the agent..."></textarea>
                     </div>
                     <div class="field field-injection">
                         <label for="injection-payload">
                             <i class="fa-solid fa-triangle-exclamation"></i>
                             Injection <span class="label-hint">(appended to data payload)</span>
                         </label>
-                        <textarea id="injection-payload" rows="2" placeholder="Simulated adversarial injection..."></textarea>
+                        <textarea id="injection-payload" rows="2"
+                            placeholder="Simulated adversarial injection..."></textarea>
                     </div>
                 </div>
                 <div class="input-footer">
@@ -124,7 +129,7 @@
     </main>
 
     <footer id="footer">
-        <p>RUI Framework &middot; UbiComp 2026 &middot; <a href="https://github.com">GitHub</a></p>
+        <p>RUI Framework &middot; <a href="https://github.com">GitHub</a></p>
     </footer>
 
     <script src="app.js"></script>
