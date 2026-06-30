@@ -1,6 +1,5 @@
 # Real User Instruction (RUI)
 
-[![Python Unit Tests](https://github.com/rui-defense/rui/actions/workflows/python-tests.yml/badge.svg)](https://github.com/rui-defense/rui/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Official repository for **Real User Instruction (RUI)**, a prompt-level defense framework designed to protect Large Language Model (LLM) agents against Indirect Prompt Injection (IPI) attacks in multi-turn environments. 
