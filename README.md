@@ -26,7 +26,7 @@ RUI operates using four symbiotic mechanisms:
 ## 🛠️ Python Installation & Quick Start
 
 Requires Python 3.8+.
-
+```
 # Install dependencies
 pip install -r requirements.txt
 ```
