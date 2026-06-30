@@ -118,3 +118,7 @@ python -m unittest tests/test_core.py
 ## 🛡️ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Contact me: luojingtang@gmail.com
