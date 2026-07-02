@@ -121,4 +121,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Contact me: luojingtang@gmail.com
+Contact us: luojingtang@gmail.com
